@@ -16,6 +16,7 @@ function App() {
       data: "26 de agosto de 2025",
       capa: "/defesa-civil.png",
       link: "https://dashboard-defesa-civil.vercel.app/",
+      cor: "#EE6B3A",
     },
     {
       id: 2,
@@ -27,6 +28,7 @@ function App() {
       data: "26 de agosto de 2025",
       capa: "/equipamentos-protecao-social.png",
       link: "https://equipamentos-protecao-social.vercel.app/",
+      cor: "#128C7E",
     },
     {
       id: 3,
@@ -38,6 +40,7 @@ function App() {
       data: "26 de agosto de 2025",
       capa: "/conselhos-tutelares.png",
       link: "https://conselhos-tutelares.vercel.app/",
+      cor: "#128C7E",
     },
   ];
 
@@ -106,7 +109,10 @@ function App() {
                 <p className="card-descricao">{painel.descricao}</p>
                 <div className="card-footer">
                   <div className="card-autor">
-                    <div className="autor-avatar"></div>
+                    <div
+                      style={{ backgroundColor: painel.cor }}
+                      className="autor-avatar"
+                    ></div>
                     <span className="autor-nome">{painel.autor}</span>
                   </div>
                   <span className="card-data">{painel.data}</span>
