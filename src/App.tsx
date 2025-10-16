@@ -56,7 +56,7 @@ function App() {
       {/* Header */}
       <header className="header">
         <h1>Portal de Dados Abertos</h1>
-        <h3 style={{ marginBottom: "-65px" }}>Painéis Iterativos</h3>
+        <h3 style={{ marginBottom: "-65px" }}>Prefeitura de Teresópolis</h3>
 
         <div className="div-filter">
           <button
@@ -90,7 +90,7 @@ function App() {
 
       {/* Main Content */}
       <main className="main-content">
-        <h2 className="section-title">Painéis por Organização</h2>
+        <h2 className="section-title">Painéis Iterativos</h2>
         <div className="cards-grid">
           {filterPainels().map((painel) => (
             <a href={painel.link} key={painel.id} className="card">
