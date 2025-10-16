@@ -90,7 +90,7 @@ function App() {
 
       {/* Main Content */}
       <main className="main-content">
-        <h2 className="section-title">Painéis Iterativos</h2>
+        <h2 className="section-title">Painéis Responsivos</h2>
         <div className="cards-grid">
           {filterPainels().map((painel) => (
             <a href={painel.link} key={painel.id} className="card">
