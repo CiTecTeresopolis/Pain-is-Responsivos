@@ -68,7 +68,7 @@ function App() {
         </div>
         <div className="sub-header">
           <h1>Portal de Dados Abertos</h1>
-          <h3>Prefeitura de Teresópolis</h3>
+          <h3>Prefeitura Municipal de Teresópolis</h3>
         </div>
         <div className="sub-header" style={{ alignItems: "flex-end" }}>
           <div className="div-filter">
