@@ -58,7 +58,49 @@ function App() {
     <div className="app">
       {/* Header */}
       <header className="header">
-        <h1>Portal de Dados Abertos</h1>
+        <div className="sub-header" style={{ alignItems: "flex-start" }}>
+          <a href="https://dados.teresopolis.rj.gov.br/">
+            ⭠ Retornar ao Portal
+          </a>
+        </div>
+        <div className="sub-header">
+          <h1>Portal de Dados Abertos</h1>
+          <h3>Prefeitura de Teresópolis</h3>
+        </div>
+        <div className="sub-header" style={{ alignItems: "flex-end" }}>
+          <div className="div-filter">
+            <button
+              onClick={() => SetFilterOpen(!filterOpen)}
+              className="button-select"
+            >
+              {categoryFilter == "Todos"
+                ? "Todas as Organizações"
+                : categoryFilter}
+            </button>
+            {filterOpen && (
+              <div className="list-select">
+                <ul>
+                  {["Todos", "Defesa Civil", "Assistência Social"].map(
+                    (org) => (
+                      <li
+                        key={org}
+                        onClick={() => {
+                          SetCategoryFilter(org);
+                          SetFilterOpen(false);
+                        }}
+                        className=""
+                      >
+                        {org}
+                      </li>
+                    )
+                  )}
+                </ul>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/*<h1>Portal de Dados Abertos</h1>
         <h3 style={{ marginBottom: "-65px" }}>Prefeitura de Teresópolis</h3>
 
         <div className="div-filter">
@@ -88,7 +130,7 @@ function App() {
               </ul>
             </div>
           )}
-        </div>
+        </div>*/}
       </header>
 
       {/* Main Content */}
