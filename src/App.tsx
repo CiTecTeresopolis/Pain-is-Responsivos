@@ -63,7 +63,7 @@ function App() {
             style={{ color: "white", textDecoration: "none" }}
             href="https://dados.teresopolis.rj.gov.br/"
           >
-            ⭠ Retornar ao Portal
+            ⭠ Retornar ao início
           </a>
         </div>
         <div className="sub-header">
