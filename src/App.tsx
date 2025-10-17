@@ -59,7 +59,10 @@ function App() {
       {/* Header */}
       <header className="header">
         <div className="sub-header" style={{ alignItems: "flex-start" }}>
-          <a href="https://dados.teresopolis.rj.gov.br/">
+          <a
+            style={{ color: "white", textDecoration: "none" }}
+            href="https://dados.teresopolis.rj.gov.br/"
+          >
             ⭠ Retornar ao Portal
           </a>
         </div>
