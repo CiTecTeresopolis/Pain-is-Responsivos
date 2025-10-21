@@ -42,6 +42,17 @@ function App() {
       link: "https://conselhos-tutelares.vercel.app/",
       cor: "#128C7E",
     },
+    {
+      id: 4,
+      categoria: "Saúde",
+      titulo: "Mapa das Unidades de Saúde",
+      descricao: "Mapa Responsivo das Unidades de Saúde do Município.",
+      autor: "Ciência e Tecnologia",
+      data: "1 de setembro de 2025",
+      capa: "/mapa-unidades-saude.png",
+      link: "https://mapa-unidades-de-saude.vercel.app/",
+      cor: "#009BE5",
+    },
   ];
 
   const filterPainels = () => {
@@ -49,7 +60,7 @@ function App() {
       return paineis;
     } else {
       return paineis.filter((painel) => {
-        return painel.autor === categoryFilter;
+        return painel.categoria === categoryFilter;
       });
     }
   };
@@ -63,12 +74,12 @@ function App() {
             style={{ color: "white", textDecoration: "none" }}
             href="https://dados.teresopolis.rj.gov.br/"
           >
-            ⭠ Retornar ao início
+            ⭠ Retornar ao Portal
           </a>
         </div>
         <div className="sub-header">
           <h1>Portal de Dados Abertos</h1>
-          <h3>Prefeitura Municipal de Teresópolis</h3>
+          <h3>Prefeitura de Teresópolis</h3>
         </div>
         <div className="sub-header" style={{ alignItems: "flex-end" }}>
           <div className="div-filter">
@@ -83,7 +94,7 @@ function App() {
             {filterOpen && (
               <div className="list-select">
                 <ul>
-                  {["Todos", "Defesa Civil", "Assistência Social"].map(
+                  {["Todos", "Defesa Civil", "Assistência Social", "Saúde"].map(
                     (org) => (
                       <li
                         key={org}
@@ -158,7 +169,7 @@ function App() {
                       style={{ backgroundColor: painel.cor }}
                       className="autor-avatar"
                     ></div>
-                    <span className="autor-nome">{painel.autor}</span>
+                    <span className="autor-nome">{painel.categoria}</span>
                   </div>
                   <span className="card-data">{painel.data}</span>
                 </div>
