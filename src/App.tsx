@@ -69,7 +69,7 @@ function App() {
     <div className="app">
       {/* Header */}
       <header className="header">
-        <div className="sub-header" style={{ alignItems: "flex-start" }}>
+        <div className="sub-header-1" style={{ alignItems: "flex-start" }}>
           <a
             style={{ color: "white", textDecoration: "none" }}
             href="https://dados.teresopolis.rj.gov.br/"
@@ -81,7 +81,7 @@ function App() {
           <h1>Portal de Dados Abertos</h1>
           <h3>Prefeitura de Teresópolis</h3>
         </div>
-        <div className="sub-header" style={{ alignItems: "flex-end" }}>
+        <div className="sub-header-1" style={{ alignItems: "flex-end" }}>
           <div className="div-filter">
             <button
               onClick={() => SetFilterOpen(!filterOpen)}
