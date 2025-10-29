@@ -53,6 +53,17 @@ function App() {
       link: "https://mapa-unidades-de-saude.vercel.app/",
       cor: "#009BE5",
     },
+    {
+      id: 5,
+      categoria: "Segurança Pública",
+      titulo: "Mapa dos Semáforos",
+      descricao: "Mapa Responsivo com os Semáforos do Município.",
+      autor: "Segurança Pública",
+      data: "21 de outubro de 2025",
+      capa: "/mapa-semaforos.png",
+      link: "https://mapa-semaforos.vercel.app/",
+      cor: "#588157",
+    },
   ];
 
   const filterPainels = () => {
