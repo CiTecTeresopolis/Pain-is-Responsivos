@@ -89,7 +89,7 @@ function App() {
           </a>
         </div>
         <div className="sub-header">
-          <h1>Portal de Dados Abertos</h1>
+          <h1>Dados Abertos</h1>
           <h3>Prefeitura de Teresópolis</h3>
         </div>
         <div className="sub-header-1" style={{ alignItems: "flex-end" }}>
