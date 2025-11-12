@@ -64,6 +64,18 @@ function App() {
       link: "https://mapa-semaforos.vercel.app/",
       cor: "#588157",
     },
+    {
+      id: 6,
+      categoria: "Assistência Social",
+      titulo: "Público Atendido pelo Aluguel Social - 2025",
+      descricao:
+        "Análise do Perfil do Público Atendido pelo Aluguel Social - 2025.",
+      autor: "Assistência Social",
+      data: "12 de novembro de 2025",
+      capa: "/publico-atendido.png",
+      link: "https://perfil-publico-aluguel-social.vercel.app/",
+      cor: "#128C7E",
+    },
   ];
 
   const filterPainels = () => {
