@@ -67,7 +67,7 @@ function App() {
     {
       id: 6,
       categoria: "Assistência Social",
-      titulo: "Público Atendido pelo Aluguel Social - 2025",
+      titulo: "Aluguel Social - Público Atendido 2025",
       descricao:
         "Análise do Perfil do Público Atendido pelo Aluguel Social - 2025.",
       autor: "Assistência Social",
@@ -79,7 +79,7 @@ function App() {
     {
       id: 7,
       categoria: "Assistência Social",
-      titulo: "Rede de PROTEÇAO DE dIREITOS Humanos - 2025",
+      titulo: "Rede de Proteção de Direitos Humanos",
       descricao:
         "Informações sobre instituições de proteção social, serviços prestados e capacidade de atendimento. - 2025.",
       autor: "Assistência Social",
