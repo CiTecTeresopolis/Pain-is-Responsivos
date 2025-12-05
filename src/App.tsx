@@ -129,7 +129,7 @@ function App() {
             {filterOpen && (
               <div className="list-select">
                 <ul>
-                  {["Todos", "Defesa Civil", "Assistência Social", "Saúde", "Segurança Pública", ""].map(
+                  {["Todos", "Defesa Civil", "Assistência Social", "Saúde", "Segurança Pública"].map(
                     (org) => (
                       <li
                         key={org}
@@ -143,6 +143,9 @@ function App() {
                       </li>
                     )
                   )}
+                  <li className="">
+                        
+                  </li>
                 </ul>
               </div>
             )}
