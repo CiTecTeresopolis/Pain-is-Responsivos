@@ -76,6 +76,18 @@ function App() {
       link: "https://perfil-publico-aluguel-social.vercel.app/",
       cor: "#128C7E",
     },
+    {
+      id: 7,
+      categoria: "Assistência Social",
+      titulo: "Rede de PROTEÇAO DE dIREITOS Humanos - 2025",
+      descricao:
+        "Informações sobre instituições de proteção social, serviços prestados e capacidade de atendimento. - 2025.",
+      autor: "Assistência Social",
+      data: "05 de dezembro de 2025",
+      capa: "/rede-protecao.png",
+      link: "https://rede-protecao-dh.vercel.app/",
+      cor: "#128C7E",
+    },
   ];
 
   const filterPainels = () => {
