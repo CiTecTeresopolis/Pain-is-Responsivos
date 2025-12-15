@@ -88,6 +88,18 @@ function App() {
       link: "https://rede-protecao-dh.vercel.app/",
       cor: "#128C7E",
     },
+    {
+      id: 8,
+      categoria: "Assistência Social",
+      titulo: "Perfil Beneficiários PROMAJ",
+      descricao:
+        "Perfil dos Beneficiários do Programa de Oportunidade de Primeiro Emprego e Capacitação de Jovens. - 2025.",
+      autor: "Assistência Social",
+      data: "15 de dezembro de 2025",
+      capa: "/perfil-promaj.png",
+      link: "https://dashboard-promaj.vercel.app/",
+      cor: "#128C7E",
+    },
   ];
 
   const filterPainels = () => {
