@@ -201,7 +201,7 @@ function App() {
       <main className="main-content">
         <h2 className="section-title">Painéis Responsivos</h2>
         <div className="cards-grid">
-          {filterPainels().map((painel) => (
+          {filterPainels().reverse().map((painel) => (
             <a href={painel.link} key={painel.id} className="card">
               <div className="card-image">
                 {/* Placeholder para imagem */}
