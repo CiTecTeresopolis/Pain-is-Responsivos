@@ -100,6 +100,18 @@ function App() {
       link: "https://dashboard-promaj.vercel.app/",
       cor: "#128C7E",
     },
+    {
+      id: 9,
+      categoria: "Finanças e Orçamento",
+      titulo: "Painel de Recursos Liberados",
+      descricao:
+        "Visualização dos Recursos Públicos Liberados no ano de 2025.",
+      autor: "Finanças e Orçamento",
+      data: "06 de janeiro de 2026",
+      capa: "/recursos-liberados.png",
+      link: "https://recursos-liberados-2025.vercel.app/",
+      cor: "#4f30ffff",
+    },
   ];
 
   const filterPainels = () => {
@@ -141,7 +153,7 @@ function App() {
             {filterOpen && (
               <div className="list-select">
                 <ul>
-                  {["Todos", "Defesa Civil", "Assistência Social", "Saúde", "Segurança Pública", " "].map(
+                  {["Todos", "Defesa Civil", "Assistência Social", "Saúde", "Segurança Pública", "Finanças e Orçamento", " "].map(
                     (org) => (
                       <li
                         key={org}
