@@ -120,7 +120,7 @@ function App() {
         "Perfil dos Beneficiários do Programa Operação Trabalho . - 2025.",
       autor: "Assistência Social",
       data: "08 de Janeiro de 2026",
-      capa: "/perfil-ppt.png",
+      capa: "/perfil-pot.png",
       link: "https://dashboard-pot.vercel.app/",
       cor: "#128C7E",
     },
