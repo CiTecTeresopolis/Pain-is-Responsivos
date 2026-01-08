@@ -112,6 +112,18 @@ function App() {
       link: "https://recursos-liberados-2025.vercel.app/",
       cor: "#4f30ffff",
     },
+    {
+      id: 9,
+      categoria: "Assistência Social",
+      titulo: "Perfil Beneficiários POT",
+      descricao:
+        "Perfil dos Beneficiários do Programa Operação Trabalho . - 2025.",
+      autor: "Assistência Social",
+      data: "08 de Janeiro de 2026",
+      capa: "/perfil-ppt.png",
+      link: "https://dashboard-pot.vercel.app/",
+      cor: "#128C7E",
+    },
   ];
 
   const filterPainels = () => {
