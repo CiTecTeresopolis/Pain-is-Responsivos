@@ -127,7 +127,7 @@ function App() {
      {
       id: 10,
       categoria: "Assistência Social",
-      titulo: "Perfil Beneficiários POT",
+      titulo: "Perfil dos Estagiários",
       descricao:
         "Perfil dos Estagiários Contratados pelo Município. - 2025.",
       autor: "Administração",
