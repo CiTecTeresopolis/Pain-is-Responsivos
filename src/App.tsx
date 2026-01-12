@@ -113,7 +113,7 @@ function App() {
       cor: "#4f30ffff",
     },
     {
-      id: 9,
+      id: 10,
       categoria: "Assistência Social",
       titulo: "Perfil Beneficiários POT",
       descricao:
@@ -123,6 +123,18 @@ function App() {
       capa: "/perfil-pot.png",
       link: "https://dashboard-pot.vercel.app/",
       cor: "#128C7E",
+    },
+     {
+      id: 10,
+      categoria: "Assistência Social",
+      titulo: "Perfil Beneficiários POT",
+      descricao:
+        "Perfil dos Estagiários Contratados pelo Município. - 2025.",
+      autor: "Administração",
+      data: "12 de Janeiro de 2026",
+      capa: "/dashboard-estagiario.png",
+      link: "https://dashboard-estagiarios.vercel.app/",
+      cor: "#ffd000",
     },
   ];
 
@@ -165,7 +177,7 @@ function App() {
             {filterOpen && (
               <div className="list-select">
                 <ul>
-                  {["Todos", "Defesa Civil", "Assistência Social", "Saúde", "Segurança Pública", "Finanças e Orçamento", " "].map(
+                  {["Todos", "Defesa Civil", "Assistência Social", "Saúde", "Segurança Pública", "Finanças e Orçamento", "Administração", " "].map(
                     (org) => (
                       <li
                         key={org}
