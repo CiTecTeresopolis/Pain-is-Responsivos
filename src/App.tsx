@@ -126,7 +126,7 @@ function App() {
     },
      {
       id: 10,
-      categoria: "Assistência Social",
+      categoria: "Administração",
       titulo: "Perfil dos Estagiários",
       descricao:
         "Perfil dos Estagiários Contratados pelo Município. - 2025.",
