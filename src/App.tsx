@@ -124,7 +124,7 @@ function App() {
       link: "https://dashboard-pot.vercel.app/",
       cor: "#128C7E",
     },
-     {
+    {
       id: 10,
       categoria: "Administração",
       titulo: "Perfil dos Estagiários",
@@ -135,6 +135,18 @@ function App() {
       capa: "/dashboard-estagiario.png",
       link: "https://dashboard-estagiarios.vercel.app/",
       cor: "#ffd000",
+    },
+    {
+      id: 11,
+      categoria: "Projetos Especiais",
+      titulo: "Perfil dos Estagiários",
+      descricao:
+        "Emendas Parlamentares Gerais. - 2025.",
+      autor: "Projetos Especiais",
+      data: "04 de Fevereiro de 2026",
+      capa: "/emendas.png",
+      link: "https://emendas-parlamentares.vercel.app/",
+      cor: "#00e1ff",
     },
   ];
 
@@ -177,7 +189,7 @@ function App() {
             {filterOpen && (
               <div className="list-select">
                 <ul>
-                  {["Todos", "Defesa Civil", "Assistência Social", "Saúde", "Segurança Pública", "Finanças e Orçamento", "Administração", " "].map(
+                  {["Todos", "Defesa Civil", "Assistência Social", "Saúde", "Segurança Pública", "Finanças e Orçamento", "Administração", "Projetos Especiais", " "].map(
                     (org) => (
                       <li
                         key={org}
