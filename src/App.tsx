@@ -139,7 +139,7 @@ function App() {
     {
       id: 11,
       categoria: "Projetos Especiais",
-      titulo: "Perfil dos Estagiários",
+      titulo: "Emendas Parlamentares Gerais",
       descricao:
         "Emendas Parlamentares Gerais. - 2025.",
       autor: "Projetos Especiais",
