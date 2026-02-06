@@ -281,10 +281,9 @@ function App() {
       <footer className="footer">
         <div className="footer-bottom">
           <p>
-            Implementado pela Secretaria Municipal de Ciência e Tecnologia.
+            Implementado pelo Departamento de Governança de Dados\Secretaria Municipal de Ciência e Tecnologia.
             cienciaetecnologia@teresopolis.rj.gov.br
           </p>
-          <p>Atualizado por todos os Conselhos Municipais.</p>
         </div>
       </footer>
     </div>
