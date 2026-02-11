@@ -148,6 +148,18 @@ function App() {
       link: "https://emendas-parlamentares.vercel.app/",
       cor: "#00e1ff",
     },
+     {
+      id: 12,
+      categoria: "Assistência Social",
+      titulo: "Atendimentos CREAS",
+      descricao:
+        "Métricas dos atendimentos do CREAS. - 2025.",
+      autor: "Assistência Social",
+      data: "11 de fevereiro de 2026",
+      capa: "/creas.png",
+      link: "https://dashboard-creas-teresopolis.vercel.app/",
+      cor: "#128C7E",
+    },
   ];
 
   const filterPainels = () => {
