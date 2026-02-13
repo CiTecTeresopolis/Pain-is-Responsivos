@@ -139,9 +139,9 @@ function App() {
     {
       id: 11,
       categoria: "Governo",
-      titulo: "Emendas Parlamentares Gerais",
+      titulo: "Emendas Parlamentares",
       descricao:
-        "Emendas Parlamentares Gerais. - 2025.",
+        "Emendas Parlamentares - 2025.",
       autor: "Governo",
       data: "04 de Fevereiro de 2026",
       capa: "/emendas.png",
