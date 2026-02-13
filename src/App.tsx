@@ -138,14 +138,14 @@ function App() {
     },
     {
       id: 11,
-      categoria: "Projetos Especiais",
+      categoria: "Governo",
       titulo: "Emendas Parlamentares Gerais",
       descricao:
         "Emendas Parlamentares Gerais. - 2025.",
-      autor: "Projetos Especiais",
+      autor: "Governo",
       data: "04 de Fevereiro de 2026",
       capa: "/emendas.png",
-      link: "https://emendas-parlamentares.vercel.app/",
+      link: "https://emendas-parlamentares-teresopolis.vercel.app/",
       cor: "#00e1ff",
     },
      {
@@ -201,7 +201,7 @@ function App() {
             {filterOpen && (
               <div className="list-select">
                 <ul>
-                  {["Todos", "Defesa Civil", "Assistência Social", "Saúde", "Segurança Pública", "Finanças e Orçamento", "Administração", "Projetos Especiais", " "].map(
+                  {["Todos", "Defesa Civil", "Assistência Social", "Saúde", "Segurança Pública", "Finanças e Orçamento", "Administração", "Governo", " "].map(
                     (org) => (
                       <li
                         key={org}
