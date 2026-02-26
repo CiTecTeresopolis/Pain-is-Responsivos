@@ -168,7 +168,7 @@ function App() {
         "Métricas dos atendimentos do CRAS. - 2025.",
       autor: "Assistência Social",
       data: "11 de fevereiro de 2026",
-      capa: "/craas.png",
+      capa: "/cras.png",
       link: "https://dashboard-cras-2025.vercel.app/",
       cor: "#128C7E",
     },
