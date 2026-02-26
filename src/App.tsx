@@ -148,7 +148,7 @@ function App() {
       link: "https://emendas-parlamentares-teresopolis.vercel.app/",
       cor: "#00e1ff",
     },
-     {
+    {
       id: 12,
       categoria: "Assistência Social",
       titulo: "Atendimentos CREAS",
@@ -158,6 +158,18 @@ function App() {
       data: "11 de fevereiro de 2026",
       capa: "/creas.png",
       link: "https://dashboard-creas-teresopolis.vercel.app/",
+      cor: "#128C7E",
+    },
+    {
+      id: 13,
+      categoria: "Assistência Social",
+      titulo: "Atendimentos CRAS",
+      descricao:
+        "Métricas dos atendimentos do CRAS. - 2025.",
+      autor: "Assistência Social",
+      data: "11 de fevereiro de 2026",
+      capa: "/craas.png",
+      link: "https://dashboard-cras-2025.vercel.app/",
       cor: "#128C7E",
     },
   ];
