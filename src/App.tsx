@@ -172,18 +172,18 @@ function App() {
       link: "https://dashboard-cras-2025.vercel.app/",
       cor: "#128C7E",
     },
-    {
-      id: 15,
-      categoria: "Governo",
-      titulo: "Emendas Impositivas",
-      descricao:
-        "Emendas Impositivas - 2026.",
-      autor: "Governo",
-      data: "04 de Março de 2026",
-      capa: "/emendas-impositivas.png",
-      link: "https://emendas-impositivas-teresopolis.vercel.app/",
-      cor: "#00e1ff",
-    },
+    // {
+    //   id: 15,
+    //   categoria: "Governo",
+    //   titulo: "Emendas Impositivas",
+    //   descricao:
+    //     "Emendas Impositivas - 2026.",
+    //   autor: "Governo",
+    //   data: "04 de Março de 2026",
+    //   capa: "/emendas-impositivas.png",
+    //   link: "https://emendas-impositivas-teresopolis.vercel.app/",
+    //   cor: "#00e1ff",
+    // },
   ];
 
   const filterPainels = () => {
