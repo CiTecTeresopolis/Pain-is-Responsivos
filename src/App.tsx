@@ -183,19 +183,19 @@ function App() {
       capa: "/emendas-impositivas.png",
       link: "https://emendas-impositivas-teresopolis.vercel.app/",
       cor: "#00e1ff",
-    },
-    {
-      id: 16,
-      categoria: "Assistência Social",
-      titulo: "Abrigo Municipal",
-      descricao:
-        "Métricas dos Atendimentos do Abrigo Municipal. - 2025.",
-      autor: "Assistência Social",
-      data: "10 de março de 2026",
-      capa: "/abrigo.png",
-      link: "https://abrigo-municipal-teresopolis.vercel.app/",
-      cor: "#128C7E",
-    },
+    }
+    // {
+    //   id: 16,
+    //   categoria: "Assistência Social",
+    //   titulo: "Abrigo Municipal",
+    //   descricao:
+    //     "Métricas dos Atendimentos do Abrigo Municipal. - 2025.",
+    //   autor: "Assistência Social",
+    //   data: "10 de março de 2026",
+    //   capa: "/abrigo.png",
+    //   link: "https://abrigo-municipal-teresopolis.vercel.app/",
+    //   cor: "#128C7E",
+    // },
   ];
 
   const filterPainels = () => {
