@@ -175,7 +175,7 @@ function App() {
     {
       id: 15,
       categoria: "Governo",
-      titulo: "Emendas Impositivas",
+      titulo: "Emendas Impositivas (Município)",
       descricao:
         "Emendas Impositivas - 2026.",
       autor: "Governo",
