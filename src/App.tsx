@@ -183,7 +183,7 @@ function App() {
       capa: "/emendas-impositivas.png",
       link: "https://emendas-impositivas-teresopolis.vercel.app/",
       cor: "#00e1ff",
-    }
+    },
     {
       id: 16,
       categoria: "Assistência Social",
@@ -195,7 +195,7 @@ function App() {
       capa: "/abrigo.png",
       link: "https://abrigo-municipal-teresopolis.vercel.app/",
       cor: "#128C7E",
-    },
+    }
   ];
 
   const filterPainels = () => {
