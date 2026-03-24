@@ -205,7 +205,7 @@ function App() {
       autor: "Meio Ambiente",
       data: "24 de março de 2026",
       capa: "/licencas.png",
-      link: "https://abrigo-municipal-teresopolis.vercel.app/",
+      link: "https://licencas-ambientais-teresopolis.vercel.app/",
       cor: "#128c18",
     }
   ];
