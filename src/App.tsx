@@ -195,6 +195,18 @@ function App() {
       capa: "/abrigo.png",
       link: "https://abrigo-municipal-teresopolis.vercel.app/",
       cor: "#128C7E",
+    },
+    {
+      id: 17,
+      categoria: "Meio Ambiente",
+      titulo: "Licenças Ambientais",
+      descricao:
+        "Licenças Ambientais Emitidas.",
+      autor: "Meio Ambiente",
+      data: "24 de março de 2026",
+      capa: "/licencas.png",
+      link: "https://abrigo-municipal-teresopolis.vercel.app/",
+      cor: "#128c18",
     }
   ];
 
@@ -237,7 +249,7 @@ function App() {
             {filterOpen && (
               <div className="list-select">
                 <ul>
-                  {["Todos", "Defesa Civil", "Assistência Social", "Saúde", "Segurança Pública", "Finanças e Orçamento", "Administração", "Governo", " "].map(
+                  {["Todos", "Defesa Civil", "Assistência Social", "Saúde", "Segurança Pública", "Finanças e Orçamento", "Administração", "Governo", "Meio Ambiente", " "].map(
                     (org) => (
                       <li
                         key={org}
