@@ -211,7 +211,7 @@ function App() {
     {
       id: 18,
       categoria: "Finanças e Orçamento",
-      titulo: "Painel de Recursos Transferidos pelo Estado",
+      titulo: "Recursos Transferidos pelo Estado",
       descricao:
         "Visualização dos Recursos Públicos Transferidos pelo Estado.",
       autor: "Finanças e Orçamento",
