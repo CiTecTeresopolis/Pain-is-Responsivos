@@ -207,7 +207,19 @@ function App() {
       capa: "/licencas.png",
       link: "https://licencas-ambientais-teresopolis.vercel.app/",
       cor: "#128c18",
-    }
+    },
+    {
+      id: 18,
+      categoria: "Finanças e Orçamento",
+      titulo: "Painel de Recursos Transferidos pelo Estado",
+      descricao:
+        "Visualização dos Recursos Públicos Transferidos pelo Estado.",
+      autor: "Finanças e Orçamento",
+      data: "01 de abril de 2026",
+      capa: "/recursos-estado.png",
+      link: "https://recursos-estado-teresopolis.vercel.app/",
+      cor: "#4f30ffff",
+    },
   ];
 
   const filterPainels = () => {
