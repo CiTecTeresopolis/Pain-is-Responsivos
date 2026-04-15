@@ -220,6 +220,18 @@ function App() {
       link: "https://recursos-estado-teresopolis.vercel.app/",
       cor: "#4f30ffff",
     },
+    {
+      id: 19,
+      categoria: "Ouvidoria",
+      titulo: "Atendimentos da Ouvidoria Municipal",
+      descricao:
+        "Visualização dos Atendimentos da Ouvidoria Municipal - Trimestral",
+      autor: "Ouvidoria",
+      data: "15 de abril de 2026",
+      capa: "/ouvidoria.png",
+      link: "https://dashboard-ouvidoria-teresopolis.vercel.app/",
+      cor: "#4f30ffff",
+    },
   ];
 
   const filterPainels = () => {
@@ -261,7 +273,7 @@ function App() {
             {filterOpen && (
               <div className="list-select">
                 <ul>
-                  {["Todos", "Defesa Civil", "Assistência Social", "Saúde", "Segurança Pública", "Finanças e Orçamento", "Administração", "Governo", "Meio Ambiente", " "].map(
+                  {["Todos", "Defesa Civil", "Assistência Social", "Saúde", "Segurança Pública", "Finanças e Orçamento", "Administração", "Governo", "Meio Ambiente", "Ouvidoria", ""].map(
                     (org) => (
                       <li
                         key={org}
