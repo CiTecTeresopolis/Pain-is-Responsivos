@@ -230,7 +230,7 @@ function App() {
       data: "15 de abril de 2026",
       capa: "/ouvidoria.png",
       link: "https://dashboard-ouvidoria-teresopolis.vercel.app/",
-      cor: "#4f30ffff",
+      cor: "#e5383b",
     },
   ];
 
