@@ -242,7 +242,7 @@ function App() {
       data: "19 de maio de 2026",
       capa: "/saude-empenho.png",
       link: "https://contratos-saude-teresopolis.vercel.app/",
-      cor: "#5be538",
+      cor: "#50c932",
     },
   ];
 
