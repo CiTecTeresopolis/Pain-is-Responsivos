@@ -232,6 +232,18 @@ function App() {
       link: "https://dashboard-ouvidoria-teresopolis.vercel.app/",
       cor: "#e5383b",
     },
+      {
+      id: 20,
+      categoria: "Saúde",
+      titulo: "Empenhos da Saúde",
+      descricao:
+        "Visualização dos Empenhos referentes à Saúde - Anual",
+      autor: "Saúde",
+      data: "19 de maio de 2026",
+      capa: "/saude-empenho.png",
+      link: "https://contratos-saude-teresopolis.vercel.app/",
+      cor: "#5be538",
+    },
   ];
 
   const filterPainels = () => {
