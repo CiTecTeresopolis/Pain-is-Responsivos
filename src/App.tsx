@@ -81,7 +81,7 @@ function App() {
       categoria: "Assistência Social",
       titulo: "Rede de Proteção de Direitos Humanos",
       descricao:
-        "Informações sobre instituições de proteção social, serviços prestados e capacidade de atendimento. - 2025.",
+        "Informações sobre instituições de proteção social, serviços prestados e capacidade de atendimento.",
       autor: "Assistência Social",
       data: "05 de dezembro de 2025",
       capa: "/rede-protecao.png",
