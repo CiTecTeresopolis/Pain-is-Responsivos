@@ -189,7 +189,7 @@ function App() {
       categoria: "Assistência Social",
       titulo: "Abrigo Municipal",
       descricao:
-        "Métricas dos Atendimentos do Abrigo Municipal. - 2025.",
+        "Métricas dos Atendimentos do Abrigo Municipal.",
       autor: "Assistência Social",
       data: "10 de março de 2026",
       capa: "/abrigo.png",
