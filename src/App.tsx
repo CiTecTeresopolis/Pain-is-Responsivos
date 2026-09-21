@@ -165,7 +165,7 @@ function App() {
       categoria: "Assistência Social",
       titulo: "Atendimentos CRAS",
       descricao:
-        "Métricas dos atendimentos do CRAS. - 2025.",
+        "Métricas dos atendimentos do CRAS.",
       autor: "Assistência Social",
       data: "11 de fevereiro de 2026",
       capa: "/cras.png",
